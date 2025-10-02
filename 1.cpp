@@ -1,3 +1,10 @@
 #include <iostream>
-int main()
-{std::cout<<"50\n10"<<std::endl;}
+using namespace std;
+
+int main() {
+    int a, b, c;
+    cout << "Введите три числа: ";
+    cin >> a >> b >> c;
+    cout << a << "  " << b << "  " << c << endl;
+    return 0;
+}
